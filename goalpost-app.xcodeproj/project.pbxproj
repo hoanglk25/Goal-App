@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA74A07E290BCEAD0085A989 /* GoalType.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA74A07D290BCEAD0085A989 /* GoalType.swift */; };
+		FA74A080290BDE530085A989 /* CreatGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA74A07F290BDE530085A989 /* CreatGoalVC.swift */; };
+		FA74A082290CF9DD0085A989 /* UIViewsControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA74A081290CF9DD0085A989 /* UIViewsControllerExt.swift */; };
+		FA74A086290D055E0085A989 /* UIButtonExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA74A085290D055E0085A989 /* UIButtonExt.swift */; };
+		FA74A088290D0CAE0085A989 /* FinishGoalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA74A087290D0CAE0085A989 /* FinishGoalVC.swift */; };
+		FABB12E4290A6A000023FD54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB12E3290A6A000023FD54 /* AppDelegate.swift */; };
+		FABB12E6290A6A000023FD54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB12E5290A6A000023FD54 /* SceneDelegate.swift */; };
+		FABB12E8290A6A000023FD54 /* GoalsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB12E7290A6A000023FD54 /* GoalsVC.swift */; };
+		FABB12EB290A6A000023FD54 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABB12E9290A6A000023FD54 /* Main.storyboard */; };
+		FABB12EE290A6A000023FD54 /* goalpost_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FABB12EC290A6A000023FD54 /* goalpost_app.xcdatamodeld */; };
+		FABB12F0290A6A010023FD54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABB12EF290A6A010023FD54 /* Assets.xcassets */; };
+		FABB12F3290A6A010023FD54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABB12F1290A6A010023FD54 /* LaunchScreen.storyboard */; };
+		FABB12FF290A77920023FD54 /* GoalCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB12FE290A77920023FD54 /* GoalCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA74A07D290BCEAD0085A989 /* GoalType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalType.swift; sourceTree = "<group>"; };
+		FA74A07F290BDE530085A989 /* CreatGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatGoalVC.swift; sourceTree = "<group>"; };
+		FA74A081290CF9DD0085A989 /* UIViewsControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewsControllerExt.swift; sourceTree = "<group>"; };
+		FA74A085290D055E0085A989 /* UIButtonExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExt.swift; sourceTree = "<group>"; };
+		FA74A087290D0CAE0085A989 /* FinishGoalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishGoalVC.swift; sourceTree = "<group>"; };
+		FABB12E0290A6A000023FD54 /* goalpost-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "goalpost-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FABB12E3290A6A000023FD54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FABB12E5290A6A000023FD54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FABB12E7290A6A000023FD54 /* GoalsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalsVC.swift; sourceTree = "<group>"; };
+		FABB12EA290A6A000023FD54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FABB12ED290A6A000023FD54 /* goalpost_app.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = goalpost_app.xcdatamodel; sourceTree = "<group>"; };
+		FABB12EF290A6A010023FD54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FABB12F2290A6A010023FD54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FABB12F4290A6A010023FD54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABB12FE290A77920023FD54 /* GoalCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoalCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FABB12DD290A6A000023FD54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FABB12D7290A6A000023FD54 = {
+			isa = PBXGroup;
+			children = (
+				FABB12E2290A6A000023FD54 /* goalpost-app */,
+				FABB12E1290A6A000023FD54 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FABB12E1290A6A000023FD54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FABB12E0290A6A000023FD54 /* goalpost-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FABB12E2290A6A000023FD54 /* goalpost-app */ = {
+			isa = PBXGroup;
+			children = (
+				FABB12FD290A6A700023FD54 /* Extensions */,
+				FABB12FC290A6A660023FD54 /* Enums */,
+				FABB12FB290A6A440023FD54 /* Views */,
+				FABB12FA290A6A2E0023FD54 /* Controllers */,
+				FABB12E3290A6A000023FD54 /* AppDelegate.swift */,
+				FABB12E5290A6A000023FD54 /* SceneDelegate.swift */,
+				FABB12E9290A6A000023FD54 /* Main.storyboard */,
+				FABB12EF290A6A010023FD54 /* Assets.xcassets */,
+				FABB12F1290A6A010023FD54 /* LaunchScreen.storyboard */,
+				FABB12EC290A6A000023FD54 /* goalpost_app.xcdatamodeld */,
+				FABB12F4290A6A010023FD54 /* Info.plist */,
+			);
+			path = "goalpost-app";
+			sourceTree = "<group>";
+		};
+		FABB12FA290A6A2E0023FD54 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FABB12E7290A6A000023FD54 /* GoalsVC.swift */,
+				FA74A07F290BDE530085A989 /* CreatGoalVC.swift */,
+				FA74A087290D0CAE0085A989 /* FinishGoalVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FABB12FB290A6A440023FD54 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FABB12FE290A77920023FD54 /* GoalCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FABB12FC290A6A660023FD54 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				FA74A07D290BCEAD0085A989 /* GoalType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		FABB12FD290A6A700023FD54 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FA74A081290CF9DD0085A989 /* UIViewsControllerExt.swift */,
+				FA74A085290D055E0085A989 /* UIButtonExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FABB12DF290A6A000023FD54 /* goalpost-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FABB12F7290A6A010023FD54 /* Build configuration list for PBXNativeTarget "goalpost-app" */;
+			buildPhases = (
+				FABB12DC290A6A000023FD54 /* Sources */,
+				FABB12DD290A6A000023FD54 /* Frameworks */,
+				FABB12DE290A6A000023FD54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "goalpost-app";
+			productName = "goalpost-app";
+			productReference = FABB12E0290A6A000023FD54 /* goalpost-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FABB12D8290A6A000023FD54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FABB12DF290A6A000023FD54 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+				};
+			};
+			buildConfigurationList = FABB12DB290A6A000023FD54 /* Build configuration list for PBXProject "goalpost-app" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FABB12D7290A6A000023FD54;
+			productRefGroup = FABB12E1290A6A000023FD54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FABB12DF290A6A000023FD54 /* goalpost-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FABB12DE290A6A000023FD54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FABB12F3290A6A010023FD54 /* LaunchScreen.storyboard in Resources */,
+				FABB12F0290A6A010023FD54 /* Assets.xcassets in Resources */,
+				FABB12EB290A6A000023FD54 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FABB12DC290A6A000023FD54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA74A086290D055E0085A989 /* UIButtonExt.swift in Sources */,
+				FABB12E8290A6A000023FD54 /* GoalsVC.swift in Sources */,
+				FA74A080290BDE530085A989 /* CreatGoalVC.swift in Sources */,
+				FABB12E4290A6A000023FD54 /* AppDelegate.swift in Sources */,
+				FA74A088290D0CAE0085A989 /* FinishGoalVC.swift in Sources */,
+				FA74A07E290BCEAD0085A989 /* GoalType.swift in Sources */,
+				FABB12EE290A6A000023FD54 /* goalpost_app.xcdatamodeld in Sources */,
+				FABB12FF290A77920023FD54 /* GoalCell.swift in Sources */,
+				FA74A082290CF9DD0085A989 /* UIViewsControllerExt.swift in Sources */,
+				FABB12E6290A6A000023FD54 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FABB12E9290A6A000023FD54 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABB12EA290A6A000023FD54 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FABB12F1290A6A010023FD54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FABB12F2290A6A010023FD54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FABB12F5290A6A010023FD54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FABB12F6290A6A010023FD54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FABB12F8290A6A010023FD54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8A5U58X5QQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "goalpost-app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hoangduc.goalpost-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FABB12F9290A6A010023FD54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8A5U58X5QQ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "goalpost-app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "hoangduc.goalpost-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FABB12DB290A6A000023FD54 /* Build configuration list for PBXProject "goalpost-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABB12F5290A6A010023FD54 /* Debug */,
+				FABB12F6290A6A010023FD54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FABB12F7290A6A010023FD54 /* Build configuration list for PBXNativeTarget "goalpost-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FABB12F8290A6A010023FD54 /* Debug */,
+				FABB12F9290A6A010023FD54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FABB12EC290A6A000023FD54 /* goalpost_app.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FABB12ED290A6A000023FD54 /* goalpost_app.xcdatamodel */,
+			);
+			currentVersion = FABB12ED290A6A000023FD54 /* goalpost_app.xcdatamodel */;
+			path = goalpost_app.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FABB12D8290A6A000023FD54 /* Project object */;
+}
